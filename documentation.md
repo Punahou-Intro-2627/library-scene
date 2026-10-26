@@ -139,7 +139,7 @@ highway, which can work if you want the time to be during the day or night
 
 `highway(750, 600, 180);`
 
-![Example for highway](/Users/dhartenstein30/Desktop/intro_to_programming/library-scene/imgs/pls work.png)
+![Example for highway](Image 10-26-26 at 1.19 PM.png)
 
 ### Additional notes
 
