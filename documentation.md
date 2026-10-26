@@ -188,7 +188,7 @@ Example: store(200, 200, "car");        Creates a car dealership whose top left 
 `store(600, 700, "insert name there", "day");`
 `store(600, 850, "insert name where", "on");`
 
-*[Image Placeholder: Examples for store]*
+![mallwart image](https://github.com/Punahou-Intro-2627/library-scene/blob/main/imgs/mallwart.png)
 
 ### Additional notes
 
