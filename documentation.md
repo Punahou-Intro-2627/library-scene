@@ -311,7 +311,7 @@ the building is defined by buildingX, buildingY, buildingW, and buildingH. bulid
 
 the frame of the window is defined by windowbgX, windowbgY, and windowbgL. windowbgX and windowbgY set the location of the buildings starting point, while widnowbgL is the size of the frame. for the x/y location, i also used nested loops so i could make the columns and rows of the frame more easily. windowbgS is the stroke of the frame.
 
-the glass part of the window is defined by windowX, windowY, windowW, and windowH. similar to the frame of the window, windowX and windowY are the starting points, and windowW and windowH indicate size. i also used nested loops to create this part of the window. widnowS is the storke of the glass.
+the glass part of the window is defined by windowX, windowY, windowW, and windowH. similar to the frame of the window, windowX and windowY are the starting points, and windowW and windowH indicate size. i also used nested loops to create this part of the window. widnowS is the stroke of the glass.
 
 ### Examples
 
