@@ -169,7 +169,7 @@ No global variables
 
 ### Examples
 
-Example: store(200, 200, "car");        Creates a car dealership whose top left corner is at (200, 200)
+Example: store(200, 200, "car", "day");        Creates a car dealership whose top left corner is at (200, 200) and has blue colored windows
 
 `store(100, 100, "RETAIL", "oFf");`
 `store(100, 250, "ReTAiL", "dAy");`
@@ -190,7 +190,11 @@ Example: store(200, 200, "car");        Creates a car dealership whose top left 
 `store(600, 700, "insert name there", "day");`
 `store(600, 850, "insert name where", "on");`
 
+Example images:
+
 ![mallwart image](https://github.com/Punahou-Intro-2627/library-scene/blob/main/imgs/mallwart.png)
+![mario's pizza](https://github.com/Punahou-Intro-2627/library-scene/blob/Jason-documentation/imgs/Mario's%20Pizza%20Screenshot.png)
+![gators store](https://github.com/Punahou-Intro-2627/library-scene/blob/Jason-documentation/imgs/Gators%20Screenshot.png)
 
 ### Additional notes
 
