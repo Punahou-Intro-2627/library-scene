@@ -958,10 +958,10 @@ line(50, 400, 50, 280)
 }
 
 function drawBridge(color){
-//Bridge
-fill(color)
-stroke(color)
-rect(0, 260, 400, 40)
+    //Bridge
+    fill(color)
+    stroke(color)
+    rect(0, 260, 400, 40)
 }
 
 function drawLines(){
@@ -976,4 +976,133 @@ function drawLines(){
 
 
 
+}
+
+
+function trafficlight(trafficX, trafficY, trafficHeight) {
+    /* trafficlight creates a traffic light with stop, yield, and go lights
+    trafficX: x-coordinate of the traffic light, value given will make somewhere around the yield light go there
+    trafficY: trafficX, but with y-coordinates instead
+    examples: see function draw
+    !! both values can ONLY be numbers or variables !!
+    no global variables required
+    */
+    fill(200,200,200)
+    noStroke();
+    rect(trafficX,trafficY,5,trafficHeight); // rectX = 50, rectY = 200
+    fill('gray')
+    rect(trafficX - 12.5,trafficY - 60,30,70); // rectY = 37.5, rectY = 140
+    fill('red')
+    circle(trafficX + 2.5,trafficY - 45,15);
+    fill('yellow')
+    circle(trafficX + 2.5,trafficY - 24,15);
+    fill('green')
+    circle(trafficX + 2.5,trafficY - 3,15);
+}
+
+
+function stopsign() {
+    fill(200,200,200)
+    noStroke();
+    rect(50,200,5,150);
+}
+
+function streetlight(streetlightX, streetlightY, streetlightHeight, streetlightLuminescence) {
+    push();
+    translate(streetlightX, streetlightY);
+    fill(30,30,30)
+    noStroke();
+    rect(0,0,5,streetlightHeight);
+    // line(-)
+    pop();
+}
+
+function pedestriansign(pedestrianX, pedestrianY) {
+    push();
+    translate(pedestrianX, pedestrianY);
+    fill(200,200,200)
+    noStroke();
+    rect(-2.5,40,5,150);
+    pop();
+}
+
+function mph(mphX, mphY, mphHeight, mphValue) {
+    push();
+    translate(mphX, mphY);
+    noStroke();
+    fill(200,200,200)
+    rect(0,0,5,mphHeight);
+    fill('white')
+    rect(-20,-50,45,55);
+    stroke('black')
+    strokeWeight(2)
+    rect(-15,-45,35,45);
+    noStroke();
+    fill('black')
+    textSize(9)
+    text('SPEED', -12.5,-32);
+    text('LIMIT', -9, -22.5);
+    textSize(20)
+    text(mphValue, -8, -5);
+    pop();
+}
+
+function cautionsign (cautionX, cautionY, cautionHeight) {
+      /* cautionsign creates a caution sign
+    cautionX: x-coordinate of the caution sign, top point of triangle will go to the point
+    cautionY: cautionX, but with y-coordinates instead
+    examples: see function draw
+    !! both values can ONLY be numbers or variables !!
+    no global variables required
+    */
+    push();
+    translate(cautionX, cautionY);
+    fill(200,200,200)
+    noStroke();
+    rect(-2.5,40,5,cautionHeight);
+    stroke('red')
+    fill('white')
+    strokeWeight(8)
+    triangle(0,0,-25,40,25,40); // 102.5, 150, 76.5, 200, 126.5, 200
+    strokeWeight(2)
+    noStroke();
+    fill('black')
+    textSize(25)
+    text('!', -4, 32.5);
+    pop();
+}
+
+function pigeon(pigeonX, pigeonY) {
+      /* pigeon creates a pigeon
+    cautionX: x-coordinate of the pigeon, near the round part of the wing
+    cautionY: cautionX, but with y-coordinates instead
+    examples: see function draw
+    !! both values can ONLY be numbers or variables !!
+    no global variables required
+    */
+    strokeWeight(20)
+    stroke(66,66,66)
+    line(pigeonX,pigeonY,pigeonX,pigeonY - 20); // 200,120,200,100
+    line(pigeonX, pigeonY, pigeonX + 25, pigeonY)
+    stroke(100,100,100)
+    line(pigeonX + 7, pigeonY - 3, pigeonX + 20, pigeonY - 3);
+    strokeWeight(2)
+    stroke('black')
+    line(pigeonX + 15, pigeonY + 10, pigeonX + 15, pigeonY + 19);
+    line(pigeonX + 10, pigeonY + 11, pigeonX + 10, pigeonY + 17);
+    line(pigeonX + 15, pigeonY + 20, pigeonX + 12, pigeonY + 23);
+    line(pigeonX + 15, pigeonY + 20, pigeonX + 10, pigeonY + 20);
+    line(pigeonX + 10, pigeonY + 17, pigeonX + 7, pigeonY + 18);
+    line(pigeonX + 10, pigeonY + 17, pigeonX + 5, pigeonY + 16);
+    noStroke();
+    fill(66,66,66)
+    triangle(pigeonX + 25, pigeonY - 10, pigeonX + 50, pigeonY - 10, pigeonX + 30, pigeonY + 9);
+    fill(100,100,100)
+    triangle(pigeonX + 22, pigeonY - 13, pigeonX + 22.5, pigeonY + 7.5, pigeonX + 45, pigeonY - 13);
+    fill('black')
+    triangle(pigeonX - 10, pigeonY - 22, pigeonX - 10, pigeonY - 18, pigeonX - 17, pigeonY - 20);
+    fill('white')
+    circle(pigeonX, pigeonY - 20, 7);
+    fill('black')
+    circle(pigeonX, pigeonY - 20, 5);
 }

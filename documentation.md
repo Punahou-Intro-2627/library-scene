@@ -454,3 +454,9 @@ Leg 2
 Leg 3
 Bridge
 fill('yellow')
+
+
+## SIGNS: by Alyssa `stopSign` etc.
+
+### Function description and parameters
+### Examples
