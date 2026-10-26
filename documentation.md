@@ -5,7 +5,7 @@
 ### Function description and parameters
 
 drawRoad
-Draws a road. Draws additional lane dividers if there is more than one lane. T
+Draws a road. Draws additional lane dividers if there is more than one lane.
 This will be the road for our cars to drive on
 
 The first parameter, roadShade, sets the shade color for the road base.
@@ -16,7 +16,7 @@ The second paramter, roadLanes, sets the number of road lanes that are drawn.
 Keep in mind, that if you choose for there to only be roadLanes, the road is basically a plain rectangle
 So choosing more than 1 lane is highly recommended
 
-The third, fourth, fifth, and sixth values are the x,y,w,h of the road for you to put in. It is exactly the same as the parameters for a basic rectangle.
+The third, fourth, fifth, and sixth values are the x,y,w,h rectangle values of the road for you to put in. It is exactly the same as the parameters for a basic rectangle.
 I gave you the choice for the dimensions on your road, but if you want your road to be to scale to the other objects that we are making, then roadWidth should be around 50
 I made a default value for the roadWidth. Therefore, if you only place in 5 values, lacking a 6th for a roadWidth, it will automatically give the road a roadWidth of 50, which should be to scale of the other objects in our scene
 
@@ -62,13 +62,17 @@ this one has lanetype #3, giving it the double line pattern, as well as other di
 
 *[Image Placeholder: Examples for drawRoad]*
 
+![Dotted Road line Example 1](https://github.com/Punahou-Intro-2627/library-scene/blob/Rex's-Documentation/imgs/Rex's%20Road%20Example%20(1).png)
+
+![Single Solid line Example 2] (https://github.com/Punahou-Intro-2627/library-scene/blob/Rex's-Documentation/imgs/Rex's%20Road%20Example%20(2).png)
+
+![Double Solid line Example 3] (https://github.com/Punahou-Intro-2627/library-scene/blob/Rex's-Documentation/imgs/Rex's%20Road%20Example%203.png)
 ### Additional notes
 
-*IMPORTANT USER GUIDELINES STATEMENTS LISTED BELOW FOR THE USER
 One thing for the user of this library to keep in mind, is I gave them free will to make the road however big or small that they wanted
 If they wanted to scale it for this particular assignment, at the scale of the other things that other people are making, then choose the default roadHeight of 50
 I tried to make the order of the values as intuitive as possible based on what we have learned so far
-*VERY IMPORTANT STATEMENTS LISTED ABOVE FOR THE USER*
+
 
 I did 3 rows of drawRoad just to test my function out with different values to make sure it worked
 It also helps demonstrate it to the user of this code
@@ -77,7 +81,6 @@ these are the orders of the values that you put in for this function
 I learned the following code with the default value suggested by Mrs. Berman
 I also reserached it further by using the following trustable website: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
 
-*To the user*
 Here you might notice that in my test runs above, the last drawRoad sequence only has 5 values, this is due to my line of code below
 some values are already automatically set, so that if you don't set a value for them, then they are chosen automatically
 this way if you don't chose a roadHeight, then it will automatically be set to scale of the project we are doing
@@ -106,7 +109,9 @@ tColor Color word from p5.js: color of the top
 
 `cart (width/2 - 25, height/2, 'orange', 'black', 'yellow',)`
 
-*[Image Placeholder: Examples for cart]*
+![Makuaʻs Car --orange,black,yellow](https://github.com/Punahou-Intro-2627/library-scene/blob/Makua%CA%BBs-Documentation/imgs/CartExample.png)
+
+
 
 ### Additional notes
 
@@ -122,11 +127,11 @@ cart stopper (rect on bottom left) function
 
 ### Function description and parameters
 
-highway()
+**highwayX**: determines the location of the entire highway structure on the x-axis
 
-highwayX: determines the location of the entire highway structure on the x-axis
-highwayY: determines the location of the entire highway structure on the y-axis
-highwayShade: determines the lighting of the highway (0-255)
+**highwayY**: determines the location of the entire highway structure on the y-axis
+
+**highwayShade**: determines the lighting of the highway (0-255)
 
 having highwayX and highwayY as parameters allows you to move the entire highway
 structure around the canvas without having to change every single coordinate in
@@ -139,7 +144,7 @@ highway, which can work if you want the time to be during the day or night
 
 `highway(750, 600, 180);`
 
-*[Image Placeholder: Examples for highway]*
+![Example for highway](insert link or smth here)
 
 ### Additional notes
 
@@ -167,7 +172,7 @@ No global variables
 
 ### Examples
 
-Example: store(200, 200, "car");        Creates a car dealership whose top left corner is at (200, 200)
+Example: store(200, 200, "car", "day");        Creates a car dealership whose top left corner is at (200, 200) and has blue colored windows
 
 `store(100, 100, "RETAIL", "oFf");`
 `store(100, 250, "ReTAiL", "dAy");`
@@ -188,7 +193,11 @@ Example: store(200, 200, "car");        Creates a car dealership whose top left 
 `store(600, 700, "insert name there", "day");`
 `store(600, 850, "insert name where", "on");`
 
+Example images:
+
 ![mallwart image](https://github.com/Punahou-Intro-2627/library-scene/blob/main/imgs/mallwart.png)
+![mario's pizza](https://github.com/Punahou-Intro-2627/library-scene/blob/Jason-documentation/imgs/Mario's%20Pizza%20Screenshot.png)
+![gators store](https://github.com/Punahou-Intro-2627/library-scene/blob/Jason-documentation/imgs/Gators%20Screenshot.png)
 
 ### Additional notes
 
@@ -309,13 +318,13 @@ the building is defined by buildingX, buildingY, buildingW, and buildingH. bulid
 
 the frame of the window is defined by windowbgX, windowbgY, and windowbgL. windowbgX and windowbgY set the location of the buildings starting point, while widnowbgL is the size of the frame. for the x/y location, i also used nested loops so i could make the columns and rows of the frame more easily. windowbgS is the stroke of the frame.
 
-the glass part of the window is defined by windowX, windowY, windowW, and windowH. similar to the frame of the window, windowX and windowY are the starting points, and windowW and windowH indicate size. i also used nested loops to create this part of the window. widnowS is the storke of the glass.
+the glass part of the window is defined by windowX, windowY, windowW, and windowH. similar to the frame of the window, windowX and windowY are the starting points, and windowW and windowH indicate size. i also used nested loops to create this part of the window. widnowS is the stroke of the glass.
 
 ### Examples
 
 `residentialBuilding(color(39, 43, 43), 95, 460, 170, 40, 130, 460, 180, 420, 230, 460, color(110, 38, 14), 100, 500, 160, 500, color(171, 171, 171), 35, color(184, 222, 222), 31, 13);`
 
-*[Image Placeholder: Examples for residentialBuilding]*
+![Jacob's residential building](https://github.com/Punahou-Intro-2627/library-scene/blob/jacob-documentation/imgs/residentialbuilding.png)
 
 ### Additional notes
 
@@ -377,19 +386,20 @@ function name: trainStation
 change first number to change stationX
 change second number to change stationY 
 change third thing to alter stationColor of railings
+change 4th number to change size (Doesn't really work with any numbers other than 40)
 change fifth number to change the lightSpeed. Not that any number lower than around 55 makes the blink too fast and not visible (Lower number equals faster blink rate)
 
 To make it modular, set stationX, stationY, stationColor, or stationSize to something
 then just add the correct number so that the pieces are in the correct spots
 
-Documentation
-IMPORTANT NOTE: stationSize doesn't really work because I have to change X and Y coordinates with it and I couldn't figure out how to do so. It looks normal only when set to 40
 
 ### Examples
 
 `trainStation(500, 400, 'teal', 40, 60, 'orange')`
 
-*[Image Placeholder: Examples for trainStation]*
+### Images
+
+
 
 ### Additional notes
 
@@ -452,3 +462,9 @@ Leg 2
 Leg 3
 Bridge
 fill('yellow')
+
+
+## SIGNS: by Alyssa `stopSign` etc.
+
+### Function description and parameters
+### Examples
