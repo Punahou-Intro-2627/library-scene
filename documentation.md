@@ -495,9 +495,9 @@ trafficlight creates a traffic light with stop, yield, and go lights
     !! NOTE: any height veriables make the rectangle pole extend from the bottom !!
 
 ### Examples
-    trafficlight(20, 200, 150);
-    pigeon(100, 320);
-    cautionsign(75,160, 150);
-    mph(155,200,150,35);
+    ![trafficlight(20, 200, 150);] (https://github.com/Punahou-Intro-2627/library-scene/blob/Alyssa-Documentation/imgs/traffic.png)
+    ![pigeon(100, 320);] (https://github.com/Punahou-Intro-2627/library-scene/blob/Alyssa-Documentation/imgs/pigeon.png)
+    ![cautionsign(75,160, 150);] (https://github.com/Punahou-Intro-2627/library-scene/blob/Alyssa-Documentation/imgs/caution.png)
+    ![mph(155,200,150,35);] (https://github.com/Punahou-Intro-2627/library-scene/blob/Alyssa-Documentation/imgs/mph.png)
 
 ### additional notes
