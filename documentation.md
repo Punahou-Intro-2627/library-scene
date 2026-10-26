@@ -155,7 +155,7 @@ point(highwayX + 237, highwayY + 71);
 
 store()
 
-draws a store (wahoo!)
+draws a store
 
 Parameters:
 storeX           x-coordinate of the top left corner of the main rectangle/structure of the store
@@ -189,6 +189,7 @@ Example: store(200, 200, "car");        Creates a car dealership whose top left 
 `store(600, 850, "insert name where", "on");`
 
 ![mallwart image](https://github.com/Punahou-Intro-2627/library-scene/blob/main/imgs/mallwart.png)
+![Mario's Pizza Screenshot](Mario's Pizza Screenshot.png)
 
 ### Additional notes
 
