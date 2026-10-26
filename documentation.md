@@ -199,6 +199,8 @@ Sets the top left corner of the building at (storeX, storeY)
 
 ### Function description and parameters
 
+park(parkX, parkY, parkW, parkH, parkColor, treeDist, treeH, trunkW, sidewalkW);
+
 This function draws a park in the shape of a rectangle. The park has trees that are randomly
 pointy topped or round topped. You can change the X and Y coordinates of the whole park
 (parameter 1 & 2), the width and height of the park (parameter 3 & 4), the color of the grass
@@ -207,6 +209,21 @@ the trees from eachother (parameter 6), the tree's height and the tree trunk's w
 (parameters 7 & 8), and lastly, the sidewalk's thickness (parameter 9).
 
 ! [park example 1] (./imgs/park-example-1.png)
+
+### Code for park example 1
+
+'''
+function setup() {
+    createCanvas(400, 400);
+}
+
+function draw() {
+    background(220);
+    park(200, 200, 200, 200, 'green', 40, 20, 5, 20);
+}
+'''
+
+This code shows a park drawn in the center of a 400 by 400 canvas. The park is half the size of the canvas in width and in height and it is located in the center. The grass is green. The center of each tree is 40 pixels apart. The trees are 20 pixels tall and the trunks are 5 pixels wide. The sidewalk is 20 pixels wide. 
 
 Parameters overview:
 parkX - x position of the center of the park
