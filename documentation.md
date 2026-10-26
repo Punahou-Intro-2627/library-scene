@@ -5,7 +5,7 @@
 ### Function description and parameters
 
 drawRoad
-Draws a road. Draws additional lane dividers if there is more than one lane. T
+Draws a road. Draws additional lane dividers if there is more than one lane.
 This will be the road for our cars to drive on
 
 The first parameter, roadShade, sets the shade color for the road base.
