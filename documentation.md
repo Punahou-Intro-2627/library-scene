@@ -269,8 +269,6 @@ Stops the loop so that the shapes aren't constantly redrawn
 
 ### Function description and parameters
 
-car()
-
 This fuction draws a car using a collection of shapes. It is a somewhat simplistic car that is missing details such as 
 side mirrors and doors. it only faces right
 
