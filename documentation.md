@@ -457,6 +457,8 @@ This function does not have a parameter
 `drawLines()`
 
 *[Image Placeholder: Examples for bridge and river elements]*
+![Eli Bridge -- grey](https://github.com/Punahou-Intro-2627/library-scene/blob/eli-documantation/imgs/Bridge.png)
+
 
 ### Additional notes
 
