@@ -139,8 +139,7 @@ highway, which can work if you want the time to be during the day or night
 
 `highway(750, 600, 180);`
 
-*[Image Placeholder: Examples for highway]*
-![]()
+![Example for highway](https://github.com/Punahou-Intro-2627/library-scene/blob/DJ-Documentation/imgs/highway.jpeg)
 
 ### Additional notes
 
