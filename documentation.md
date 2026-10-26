@@ -16,7 +16,7 @@ The second paramter, roadLanes, sets the number of road lanes that are drawn.
 Keep in mind, that if you choose for there to only be roadLanes, the road is basically a plain rectangle
 So choosing more than 1 lane is highly recommended
 
-The third, fourth, fifth, and sixth values are the x,y,w,h of the road for you to put in. It is exactly the same as the parameters for a basic rectangle.
+The third, fourth, fifth, and sixth values are the x,y,w,h rectangle values of the road for you to put in. It is exactly the same as the parameters for a basic rectangle.
 I gave you the choice for the dimensions on your road, but if you want your road to be to scale to the other objects that we are making, then roadWidth should be around 50
 I made a default value for the roadWidth. Therefore, if you only place in 5 values, lacking a 6th for a roadWidth, it will automatically give the road a roadWidth of 50, which should be to scale of the other objects in our scene
 
