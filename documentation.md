@@ -208,6 +208,8 @@ Sets the top left corner of the building at (storeX, storeY)
 
 ### Function description and parameters
 
+park(parkX, parkY, parkW, parkH, parkColor, treeDist, treeH, trunkW, sidewalkW);
+
 This function draws a park in the shape of a rectangle. The park has trees that are randomly
 pointy topped or round topped. You can change the X and Y coordinates of the whole park
 (parameter 1 & 2), the width and height of the park (parameter 3 & 4), the color of the grass
@@ -215,64 +217,53 @@ so it can be green or even dead grass if you want (parameter 5), the horizontal 
 the trees from eachother (parameter 6), the tree's height and the tree trunk's width
 (parameters 7 & 8), and lastly, the sidewalk's thickness (parameter 9).
 
-Parameters overview:
-parkX - x position of the center of the park
-parkY - y position of the center of the park
-parkW - the full width of the park
-parkH - the full height of the park
-parkColor - the color of the grass (can be any color but must be a color)
-treeDist - horizontal distance between trees
-treeH - height of a tree
-trunkW - width of a trunk of a tree
-sidewalkW - width of the sidewalk
-
 ### Examples
 
-`park(200, 200, 400, 400, 'green', 80, 40, 10, 20);`
+![park example 1](./imgs/park-example-1.png)
 
-*[Image Placeholder: Examples for park]*
+#### Code for park example 1
 
-### Additional notes
+```
+function setup() {
+    createCanvas(400, 400);
+}
 
-The park's sides are the center - half the total width
+function draw() {
+    background(220);
+    park(200, 200, 200, 200, 'green', 40, 20, 5, 20);
+}
+```
 
-Makes the tree type able to be either a pointy or round top
+This code shows a park drawn in the center of a 400 by 400 canvas. The park is half the size of the canvas in width and in height and it is located in the center. The grass is green. The center of each tree is 40 pixels apart. The trees are 20 pixels tall and the trunks are 5 pixels wide. The sidewalk is 20 pixels wide. 
 
-Grass (main BG)
-makes it the color you tell it to
-Puts the x and y given to be the actual center
-Draws the park's grass
+![park example 2](./imgs/park-example-2.png)
 
-Sidewalk (the order and placement changes randomly each time it is drawn)
-Sets the sidewalk's left side to be a random Y
-Sets the  sidewalk's left side to be a random Y
-Makes the sidewalk gray
-The sidewalk's positions
-Uses the side as the first x, the random y, the same side but the sidewalk's width lower, and then the same thing on the right side
+#### Code for park example 2
 
-Fence
-Left
-Right
-Top
-Bottom
+```
+function setup() {
+    createCanvas(400, 400);
+}
 
-Trees (# of trees depends on amount of park given)
-The y coordinates of the trees
-Sets the stagger of the trees
-The x coordinates of the trees
-Makes the trees staggered
-Gives a location to each tree (x) to use later
-Uses treeLocation & lerp to find the y location
-Uses sidewalkTopX & the sidewalk's width to find the bottom's y location
-determines where the tree's top is
-Determines where the tree's bottom is
-Only draws the trees if the bottom is above the top of the sidewalk or if the top is below the bottom
-Trunk
-Randomizes the tree type
-Color of leaves
-Draws a pine tree if it is pointy and a round top try if it is round
-Increases the row count to use for the stagger
-Stops the loop so that the shapes aren't constantly redrawn
+function draw() {
+    background(220);
+    park(100, 250, 50, 150, 'palegoldenrod', 20, 20, 5, 5);
+}
+```
+
+This code shows a tall narrow park in the bottom left corner of the canvas. The grass is yellowed and the trees are closer together. 
+
+Parameters overview:  
+parkX - x position of the center of the park  
+parkY - y position of the center of the park  
+parkW - the full width of the park  
+parkH - the full height of the park  
+parkColor - the color of the grass (can be any color but must be a color)  
+treeDist - horizontal distance between trees  
+treeH - height of a tree  
+trunkW - width of a trunk of a tree  
+sidewalkW - width of the sidewalk  
+
 
 ## 6. `car`
 
