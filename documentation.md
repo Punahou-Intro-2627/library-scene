@@ -106,7 +106,9 @@ tColor Color word from p5.js: color of the top
 
 `cart (width/2 - 25, height/2, 'orange', 'black', 'yellow',)`
 
-*[Image Placeholder: Examples for cart]*
+![Makuaʻs Car --orange,black,yellow](https://github.com/Punahou-Intro-2627/library-scene/blob/Makua%CA%BBs-Documentation/imgs/CartExample.png)
+
+
 
 ### Additional notes
 
