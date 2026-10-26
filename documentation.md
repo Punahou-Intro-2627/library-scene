@@ -269,10 +269,6 @@ sidewalkW - width of the sidewalk
 
 ### Function description and parameters
 
-car()
-
-![Mason's car--purple](https://github.com/Punahou-Intro-2627/library-scene/blob/main/imgs/car.png)
-
 This fuction draws a car using a collection of shapes. It is a somewhat simplistic car that is missing details such as 
 side mirrors and doors. it only faces right
 
@@ -288,13 +284,13 @@ X pos, Y pos, car color, bottom part of the car color, headlight color
 ### Examples
 
 `car(true, 0, carX, 450, 50, 14, 50)`
+![MasonCar_BermanPurple_facingRight_lightOn](https://github.com/Punahou-Intro-2627/library-scene/blob/MasonUyemura_Documentation/imgs/Screenshot%202026-10-26%20at%201.19.53%E2%80%AFPM.png)
 `car(false, 1, carX2, 400, 0, 14, 50)`
-
-*[Image Placeholder: Examples for car]*
+![MasonCar_blue_facingLeft_lightOff](https://github.com/Punahou-Intro-2627/library-scene/blob/MasonUyemura_Documentation/imgs/Screenshot%202026-10-26%20at%201.19.43%E2%80%AFPM.png)
 
 ### Additional notes
 
-you can use a global variable to move the car by placing it in the x position
+you can use a global variable to move the car by placing the global variable into the x position using something such as += or modulo
 
 ## 7. `residentialBuilding`
 
