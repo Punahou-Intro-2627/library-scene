@@ -271,6 +271,8 @@ Stops the loop so that the shapes aren't constantly redrawn
 
 car()
 
+![Mason's car--purple](https://github.com/Punahou-Intro-2627/library-scene/blob/main/imgs/car.png)
+
 This fuction draws a car using a collection of shapes. It is a somewhat simplistic car that is missing details such as 
 side mirrors and doors. it only faces right
 
