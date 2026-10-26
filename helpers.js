@@ -983,6 +983,7 @@ function trafficlight(trafficX, trafficY, trafficHeight) {
     /* trafficlight creates a traffic light with stop, yield, and go lights
     trafficX: x-coordinate of the traffic light, value given will make somewhere around the yield light go there
     trafficY: trafficX, but with y-coordinates instead
+    trafficHeight: height of the sign's pole
     examples: see function draw
     !! both values can ONLY be numbers or variables !!
     no global variables required
@@ -1000,33 +1001,16 @@ function trafficlight(trafficX, trafficY, trafficHeight) {
     circle(trafficX + 2.5,trafficY - 3,15);
 }
 
-
-function stopsign() {
-    fill(200,200,200)
-    noStroke();
-    rect(50,200,5,150);
-}
-
-function streetlight(streetlightX, streetlightY, streetlightHeight, streetlightLuminescence) {
-    push();
-    translate(streetlightX, streetlightY);
-    fill(30,30,30)
-    noStroke();
-    rect(0,0,5,streetlightHeight);
-    // line(-)
-    pop();
-}
-
-function pedestriansign(pedestrianX, pedestrianY) {
-    push();
-    translate(pedestrianX, pedestrianY);
-    fill(200,200,200)
-    noStroke();
-    rect(-2.5,40,5,150);
-    pop();
-}
-
 function mph(mphX, mphY, mphHeight, mphValue) {
+      /* mph creates a sign saying the speed limit
+    mphX: x-coordinate of the sign
+    mphY: y-coordinate of the sign
+    mphHeight: height of the sign's pole
+    mphValue: what the numbers on the sign say
+    examples: see function draw
+    !! both values can ONLY be numbers or variables !!
+    no global variables required
+    */
     push();
     translate(mphX, mphY);
     noStroke();
@@ -1051,6 +1035,7 @@ function cautionsign (cautionX, cautionY, cautionHeight) {
       /* cautionsign creates a caution sign
     cautionX: x-coordinate of the caution sign, top point of triangle will go to the point
     cautionY: cautionX, but with y-coordinates instead
+    traffidHeight: height of the sign's pole
     examples: see function draw
     !! both values can ONLY be numbers or variables !!
     no global variables required
