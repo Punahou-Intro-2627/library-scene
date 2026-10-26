@@ -155,7 +155,7 @@ point(highwayX + 237, highwayY + 71);
 
 store()
 
-draws a store
+draws a store (wahoo!)
 
 Parameters:
 storeX           x-coordinate of the top left corner of the main rectangle/structure of the store
