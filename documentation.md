@@ -387,11 +387,14 @@ then just add the correct number so that the pieces are in the correct spots
 Documentation
 IMPORTANT NOTE: stationSize doesn't really work because I have to change X and Y coordinates with it and I couldn't figure out how to do so. It looks normal only when set to 40
 
+
 ### Examples
 
 `trainStation(500, 400, 'teal', 40, 60, 'orange')`
 
-*[Image Placeholder: Examples for trainStation]*
+### Images
+
+
 
 ### Additional notes
 
