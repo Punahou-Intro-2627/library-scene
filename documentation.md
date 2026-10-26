@@ -298,8 +298,6 @@ you can use a global variable to move the car by placing it in the x position
 
 ### Function description and parameters
 
-![Jacob's residential building](https://github.com/Punahou-Intro-2627/library-scene/blob/jacob-documentation/imgs/residentialbuilding.png)
-
 residentialBuilding()
 
 the structure that houses many people in in a smaller area, often found in the center of large cities and not in urban areas.
@@ -319,7 +317,7 @@ the glass part of the window is defined by windowX, windowY, windowW, and window
 
 `residentialBuilding(color(39, 43, 43), 95, 460, 170, 40, 130, 460, 180, 420, 230, 460, color(110, 38, 14), 100, 500, 160, 500, color(171, 171, 171), 35, color(184, 222, 222), 31, 13);`
 
-*[Image Placeholder: Examples for residentialBuilding]*
+![Jacob's residential building](https://github.com/Punahou-Intro-2627/library-scene/blob/jacob-documentation/imgs/residentialbuilding.png)
 
 ### Additional notes
 
