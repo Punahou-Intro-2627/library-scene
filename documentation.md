@@ -108,7 +108,7 @@ tColor Color word from p5.js: color of the top
 
 *[Image Placeholder: Examples for cart]* 
 
-test change
+
 
 ### Additional notes
 
