@@ -227,16 +227,16 @@ function draw() {
 
 This code shows a park drawn in the center of a 400 by 400 canvas. The park is half the size of the canvas in width and in height and it is located in the center. The grass is green. The center of each tree is 40 pixels apart. The trees are 20 pixels tall and the trunks are 5 pixels wide. The sidewalk is 20 pixels wide. 
 
-Parameters overview:
-parkX - x position of the center of the park
-parkY - y position of the center of the park
-parkW - the full width of the park
-parkH - the full height of the park
-parkColor - the color of the grass (can be any color but must be a color)
-treeDist - horizontal distance between trees
-treeH - height of a tree
-trunkW - width of a trunk of a tree
-sidewalkW - width of the sidewalk
+Parameters overview:  
+parkX - x position of the center of the park  
+parkY - y position of the center of the park  
+parkW - the full width of the park  
+parkH - the full height of the park  
+parkColor - the color of the grass (can be any color but must be a color)  
+treeDist - horizontal distance between trees  
+treeH - height of a tree  
+trunkW - width of a trunk of a tree  
+sidewalkW - width of the sidewalk  
 
 
 ## 6. `car`
