@@ -298,6 +298,8 @@ you can use a global variable to move the car by placing it in the x position
 
 ### Function description and parameters
 
+
+
 residentialBuilding()
 
 the structure that houses many people in in a smaller area, often found in the center of large cities and not in urban areas.
