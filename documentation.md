@@ -459,6 +459,45 @@ fill('yellow')
 
 
 ## SIGNS: by Alyssa `stopSign` etc.
+trafficlight creates a traffic light with stop, yield, and go lights
+    trafficX: x-coordinate of the traffic light, value given will make somewhere around the yield light go there
+    trafficY: trafficX, but with y-coordinates instead
+    trafficHeight: height of the sign's pole
+    examples: see function draw
+    !! both values can ONLY be numbers or variables !!
+    no global variables required
 
-### Function description and parameters
+     cautionsign creates a caution sign
+    cautionX: x-coordinate of the caution sign, top point of triangle will go to the point
+    cautionY: cautionX, but with y-coordinates instead
+    cautionHeight: height of the sign's pole
+    examples: see function draw
+    !! both values can ONLY be numbers or variables !!
+    no global variables required
+
+      pigeon creates a pigeon
+    pigeonX: x-coordinate of the pigeon, near the round part of the wing
+    pigeonY: pigeonX, but with y-coordinates instead
+    examples: see function draw
+    !! both values can ONLY be numbers or variables !!
+    no global variables required
+    
+     mph creates a sign saying the speed limit
+    mphX: x-coordinate of the sign
+    mphY: y-coordinate of the sign
+    mphHeight: height of the sign's pole
+    mphValue: what the numbers on the sign say
+    examples: see function draw
+    !! both values can ONLY be numbers or variables !!
+    no global variables required
+
+    !! NOTE: the point where the x and why of signs go to may vary, as I was experimenting with different things for each one !!
+    !! NOTE: any height veriables make the rectangle pole extend from the bottom !!
+
 ### Examples
+    trafficlight(20, 200, 150);
+    pigeon(100, 320);
+    cautionsign(75,160, 150);
+    mph(155,200,150,35);
+
+### additional notes
