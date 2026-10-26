@@ -298,7 +298,7 @@ you can use a global variable to move the car by placing it in the x position
 
 ### Function description and parameters
 
-
+![Jacob's residential building](https://github.com/Punahou-Intro-2627/library-scene/blob/jacob-documentation/imgs/residentialbuilding.png)
 
 residentialBuilding()
 
