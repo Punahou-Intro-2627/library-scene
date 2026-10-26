@@ -206,7 +206,7 @@ so it can be green or even dead grass if you want (parameter 5), the horizontal 
 the trees from eachother (parameter 6), the tree's height and the tree trunk's width
 (parameters 7 & 8), and lastly, the sidewalk's thickness (parameter 9).
 
-! [park example 1] (park-example-1.png)
+! [park example 1] (./imgs/park-example-1.png)
 
 Parameters overview:
 parkX - x position of the center of the park
