@@ -212,7 +212,7 @@ the trees from eachother (parameter 6), the tree's height and the tree trunk's w
 
 ![park example 1](./imgs/park-example-1.png)
 
-### Code for park example 1
+#### Code for park example 1
 
 ```
 function setup() {
@@ -226,6 +226,23 @@ function draw() {
 ```
 
 This code shows a park drawn in the center of a 400 by 400 canvas. The park is half the size of the canvas in width and in height and it is located in the center. The grass is green. The center of each tree is 40 pixels apart. The trees are 20 pixels tall and the trunks are 5 pixels wide. The sidewalk is 20 pixels wide. 
+
+![park example 2](./imgs/park-example-2.png)
+
+#### Code for park example 2
+
+```
+function setup() {
+    createCanvas(400, 400);
+}
+
+function draw() {
+    background(220);
+    park(100, 250, 50, 150, 'palegoldenrod', 20, 20, 5, 5);
+}
+```
+
+This code shows a tall narrow park in the bottom left corner of the canvas. The grass is yellowed and the trees are closer together. 
 
 Parameters overview:  
 parkX - x position of the center of the park  
