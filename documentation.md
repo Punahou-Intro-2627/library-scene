@@ -189,8 +189,8 @@ Example: store(200, 200, "car");        Creates a car dealership whose top left 
 `store(600, 850, "insert name where", "on");`
 
 ![mallwart image](https://github.com/Punahou-Intro-2627/library-scene/blob/main/imgs/mallwart.png)
-![Mario's](/Users/jye30/Desktop/library-scene/imgs/Mario's Pizza Screenshot.png)
-![Gators](/Users/jye30/Desktop/library-scene/imgs/Gators Screenshot.png)
+![Mario's](imgs/Mario's Pizza Screenshot.png)
+![Gators](imgs/Gators Screenshot.png)
 
 ### Additional notes
 
