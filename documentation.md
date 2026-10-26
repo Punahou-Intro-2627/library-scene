@@ -122,11 +122,11 @@ cart stopper (rect on bottom left) function
 
 ### Function description and parameters
 
-highwayX: determines the location of the entire highway structure on the x-axis
+**highwayX**: determines the location of the entire highway structure on the x-axis
 
-highwayY: determines the location of the entire highway structure on the y-axis
+**highwayY**: determines the location of the entire highway structure on the y-axis
 
-highwayShade: determines the lighting of the highway (0-255)
+**highwayShade**: determines the lighting of the highway (0-255)
 
 having highwayX and highwayY as parameters allows you to move the entire highway
 structure around the canvas without having to change every single coordinate in
