@@ -208,7 +208,9 @@ so it can be green or even dead grass if you want (parameter 5), the horizontal 
 the trees from eachother (parameter 6), the tree's height and the tree trunk's width
 (parameters 7 & 8), and lastly, the sidewalk's thickness (parameter 9).
 
-! [park example 1] (./imgs/park-example-1.png)
+### Examples
+
+![park example 1](./imgs/park-example-1.png)
 
 ### Code for park example 1
 
@@ -236,53 +238,6 @@ treeH - height of a tree
 trunkW - width of a trunk of a tree
 sidewalkW - width of the sidewalk
 
-### Examples
-
-`park(200, 200, 400, 400, 'green', 80, 40, 10, 20);`
-
-*[Image Placeholder: Examples for park]*
-
-### Additional notes
-
-The park's sides are the center - half the total width
-
-Makes the tree type able to be either a pointy or round top
-
-Grass (main BG)
-makes it the color you tell it to
-Puts the x and y given to be the actual center
-Draws the park's grass
-
-Sidewalk (the order and placement changes randomly each time it is drawn)
-Sets the sidewalk's left side to be a random Y
-Sets the  sidewalk's left side to be a random Y
-Makes the sidewalk gray
-The sidewalk's positions
-Uses the side as the first x, the random y, the same side but the sidewalk's width lower, and then the same thing on the right side
-
-Fence
-Left
-Right
-Top
-Bottom
-
-Trees (# of trees depends on amount of park given)
-The y coordinates of the trees
-Sets the stagger of the trees
-The x coordinates of the trees
-Makes the trees staggered
-Gives a location to each tree (x) to use later
-Uses treeLocation & lerp to find the y location
-Uses sidewalkTopX & the sidewalk's width to find the bottom's y location
-determines where the tree's top is
-Determines where the tree's bottom is
-Only draws the trees if the bottom is above the top of the sidewalk or if the top is below the bottom
-Trunk
-Randomizes the tree type
-Color of leaves
-Draws a pine tree if it is pointy and a round top try if it is round
-Increases the row count to use for the stagger
-Stops the loop so that the shapes aren't constantly redrawn
 
 ## 6. `car`
 
