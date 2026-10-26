@@ -62,6 +62,11 @@ this one has lanetype #3, giving it the double line pattern, as well as other di
 
 *[Image Placeholder: Examples for drawRoad]*
 
+![Dotted Road line Example 1](https://github.com/Punahou-Intro-2627/library-scene/blob/Rex's-Documentation/imgs/Rex's%20Road%20Example%20(1).png)
+
+![Single Solid line Example 2] (https://github.com/Punahou-Intro-2627/library-scene/blob/Rex's-Documentation/imgs/Rex's%20Road%20Example%20(2).png)
+
+![Double Solid line Example 3] (https://github.com/Punahou-Intro-2627/library-scene/blob/Rex's-Documentation/imgs/Rex's%20Road%20Example%203.png)
 ### Additional notes
 
 One thing for the user of this library to keep in mind, is I gave them free will to make the road however big or small that they wanted
