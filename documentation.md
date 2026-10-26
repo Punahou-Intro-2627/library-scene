@@ -292,7 +292,7 @@ X pos, Y pos, car color, bottom part of the car color, headlight color
 
 ### Additional notes
 
-you can use a global variable to move the car by placing it in the x position
+you can use a global variable to move the car by placing the global variable into the x position using something such as += or modulo
 
 ## 7. `residentialBuilding`
 
