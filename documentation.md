@@ -122,10 +122,10 @@ cart stopper (rect on bottom left) function
 
 ### Function description and parameters
 
-highway()
-
 highwayX: determines the location of the entire highway structure on the x-axis
+
 highwayY: determines the location of the entire highway structure on the y-axis
+
 highwayShade: determines the lighting of the highway (0-255)
 
 having highwayX and highwayY as parameters allows you to move the entire highway
@@ -140,6 +140,7 @@ highway, which can work if you want the time to be during the day or night
 `highway(750, 600, 180);`
 
 *[Image Placeholder: Examples for highway]*
+![]()
 
 ### Additional notes
 
