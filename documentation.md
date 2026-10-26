@@ -5,7 +5,7 @@
 ### Function description and parameters
 
 drawRoad
-Draws a road. Draws additional lane dividers if there is more than one lane. T
+Draws a road. Draws additional lane dividers if there is more than one lane.
 This will be the road for our cars to drive on
 
 The first parameter, roadShade, sets the shade color for the road base.
@@ -16,7 +16,7 @@ The second paramter, roadLanes, sets the number of road lanes that are drawn.
 Keep in mind, that if you choose for there to only be roadLanes, the road is basically a plain rectangle
 So choosing more than 1 lane is highly recommended
 
-The third, fourth, fifth, and sixth values are the x,y,w,h of the road for you to put in. It is exactly the same as the parameters for a basic rectangle.
+The third, fourth, fifth, and sixth values are the x,y,w,h rectangle values of the road for you to put in. It is exactly the same as the parameters for a basic rectangle.
 I gave you the choice for the dimensions on your road, but if you want your road to be to scale to the other objects that we are making, then roadWidth should be around 50
 I made a default value for the roadWidth. Therefore, if you only place in 5 values, lacking a 6th for a roadWidth, it will automatically give the road a roadWidth of 50, which should be to scale of the other objects in our scene
 
@@ -62,13 +62,17 @@ this one has lanetype #3, giving it the double line pattern, as well as other di
 
 *[Image Placeholder: Examples for drawRoad]*
 
+![Dotted Road line Example 1](https://github.com/Punahou-Intro-2627/library-scene/blob/Rex's-Documentation/imgs/Rex's%20Road%20Example%20(1).png)
+
+![Single Solid line Example 2] (https://github.com/Punahou-Intro-2627/library-scene/blob/Rex's-Documentation/imgs/Rex's%20Road%20Example%20(2).png)
+
+![Double Solid line Example 3] (https://github.com/Punahou-Intro-2627/library-scene/blob/Rex's-Documentation/imgs/Rex's%20Road%20Example%203.png)
 ### Additional notes
 
-*IMPORTANT USER GUIDELINES STATEMENTS LISTED BELOW FOR THE USER
 One thing for the user of this library to keep in mind, is I gave them free will to make the road however big or small that they wanted
 If they wanted to scale it for this particular assignment, at the scale of the other things that other people are making, then choose the default roadHeight of 50
 I tried to make the order of the values as intuitive as possible based on what we have learned so far
-*VERY IMPORTANT STATEMENTS LISTED ABOVE FOR THE USER*
+
 
 I did 3 rows of drawRoad just to test my function out with different values to make sure it worked
 It also helps demonstrate it to the user of this code
@@ -77,7 +81,6 @@ these are the orders of the values that you put in for this function
 I learned the following code with the default value suggested by Mrs. Berman
 I also reserached it further by using the following trustable website: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
 
-*To the user*
 Here you might notice that in my test runs above, the last drawRoad sequence only has 5 values, this is due to my line of code below
 some values are already automatically set, so that if you don't set a value for them, then they are chosen automatically
 this way if you don't chose a roadHeight, then it will automatically be set to scale of the project we are doing
