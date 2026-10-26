@@ -413,7 +413,7 @@ leaves
 ## 10. `drawRiver`, `drawDuck`, `drawLegs`, `drawBridge`, and `drawLines`
 
 ### Function description and parameters
-This is a test
+
 Function name drawRiver
 This function draws the river and makes it go up and down like the tide and uses a random variable
 Uses the parameters color2 and this just makes the color of the river so you could change if you wanted to
