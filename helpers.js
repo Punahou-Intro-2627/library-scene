@@ -131,7 +131,7 @@ function cartStop (cartX, cartY){
 // ==========================================
 function highway(highwayX, highwayY, highwayShade) {
     //you can get rid of the background if need be
-    background(highwayShade + 40);
+
 
 //---------STREETLIGHTS---------
 
@@ -805,7 +805,7 @@ function drawSkyscraperQuad(quadXone, quadYone, quadXtwo, quadYtwo, quadXthree,
 // trainStation (from sketch10.js)
 // ==========================================
 function trainStation(stationX, stationY, stationColor, stationSize, lightSpeed, lightcolor) {
-background(220)
+
     //setting where human will start, where the final destination is, and how long it will take
   let startX = stationX-200;
   let endX = stationX + 80;
