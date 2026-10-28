@@ -29,7 +29,7 @@ function draw() {
         car(true, 0, carX, 800, 40, 80, 123)
     carX += 1
 
-   // function residentialBuilding(roofS, baseX, baseY, baseW, baseH, topX, topY, topXtwo, topYtwo, topXthree, topYthree, buildingS, buildingX, buildingY, buildingW, buildingH, windowbgS, windowbgL, windowS, windowW, windowH) {
+
     
     
 }
