@@ -380,10 +380,8 @@ change first number to change stationX
 change second number to change stationY 
 change third thing to alter stationColor of railings
 change 4th number to change size (Doesn't really work with any numbers other than 40)
-change fifth number to change the lightSpeed. Not that any number lower than around 55 makes the blink too fast and not visible (Lower number equals faster blink rate)
-
-To make it modular, set stationX, stationY, stationColor, or stationSize to something
-then just add the correct number so that the pieces are in the correct spots
+change fifth number to change the lightSpeed. Any number lower than around 55 makes the blink too fast and not visible (Lower number equals faster blink rate)
+change 6th number to change the color of the lights
 
 
 ### Examples
