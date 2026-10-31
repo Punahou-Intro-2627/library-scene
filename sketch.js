@@ -38,6 +38,7 @@ let color1=28 + (frameCount % 400)
        car(true, 0, carX-200, 800, 40, 80, 123)
         car(true, 0, carX, 800, 40, 80, 123)
     carX += 1
+    
 
 
 
