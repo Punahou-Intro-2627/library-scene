@@ -130,6 +130,7 @@ function cartStop (cartX, cartY){
 // highway (from sketch4.js)
 // ==========================================
 function highway(highwayX, highwayY, highwayShade) {
+    background(highwayShade + 40);
     //you can get rid of the background if need be
 
 
